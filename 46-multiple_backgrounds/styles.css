@@ -1,0 +1,13 @@
+/* Since we're using no-repeat for each image we 
+don't need to include both of them */
+
+#banner {
+  background-color: #606060;
+  width: 100%;
+  height: 300px;
+  background-image: url(../img/mountain.jpeg), url(../img/thumb-1.png);
+  /* background-repeat: no-repeat, no-repeat; */
+  background-repeat: no-repeat;
+  background-position: center, top left;
+  background-size: 300px, 100%;
+}

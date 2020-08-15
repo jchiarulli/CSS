@@ -1,0 +1,23 @@
+/*************************************
+*
+* Author: Jason Chiarulli
+* Date: 8-14-20
+*
+*************************************/
+
+/* style all p tags */
+
+p {
+  font-size: 18px;
+  color: red;
+}
+
+/* #header p {
+  font-size: 24px;
+} */
+
+/* style all h1 tags */
+
+h1 {
+  font-size: 44px;
+}

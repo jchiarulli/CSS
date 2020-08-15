@@ -1,0 +1,35 @@
+/* if a browser doesn't support gradients then it
+will default to the provided background color */
+/* linear-gradient -> top means start from top and
+go to the bottom of the linear-gradient, then the
+top color is provided and the percentage of where
+the top should start, and then the bottom color 
+and the percentage of where the bottom should finish*/
+/* -moz, -webkit are vendor prefixes is a way of
+specifying a property so certain browsers can display
+the property */
+
+.button {
+  display: block;
+  width: 100px;
+  padding: 12px;
+  border: 1px solid #77aaaa;
+  font-family: arial;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 14px;
+  text-align: center;
+  border-radius: 4px;
+  background: #aadddd;
+  background: -moz-linear-gradient(top, #aadddd 0%, #77aaaa 100%);
+  background: -webkit-linear-gradient(top, #aadddd 0%, #77aaaa 100%);
+  background: linear-gradient(top, #aadddd 0%, #77aaaa 100%);
+}
+
+.button:hover {
+  background: #77aaaa;
+  background: -moz-linear-gradient(bottom, #aadddd 0%, #77aaaa 100%);
+  background: -webkit-linear-gradient(bottom, #aadddd 0%, #77aaaa 100%);
+  background: linear-gradient(bottom, #aadddd 0%, #77aaaa 100%);
+}

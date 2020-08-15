@@ -1,0 +1,13 @@
+#main-content p {
+  color: red;
+}
+
+/* #main-content #sub-content p {
+  color: blue;
+} */
+
+/* or you can just use */
+
+#sub-content p {
+  color: blue;
+}

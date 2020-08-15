@@ -1,0 +1,4 @@
+/* child selector gets only the direct children */
+#main-content > p {
+  color: red;
+}

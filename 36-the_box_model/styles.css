@@ -1,0 +1,25 @@
+/* Each block level element occupies all of the 
+space on a row */
+/* Vertical margin collapse causes the higher of 
+two touching margins values to be value we see */
+/* By not specifying a width and a height each 
+block level element will be stretched to fill the
+whole available width*/
+/* the height is specified by whatever the 
+default height of the tag is*/
+/* When we say a width of 200px that is the width 
+of the element not including the padding, border,
+and margin */
+/* Here, the overall width is 
+30 + 30 + 30 + 30 + 1 + 1 + 400 = 522px */
+/* When we say a width of 100% that gives us the 
+total available width of the element */
+
+.box {
+  margin: 30px;
+  padding: 30px;
+  border: 1px solid #000;
+  width: 400px;
+  height: 200px;
+  /* width: 100%; */
+}

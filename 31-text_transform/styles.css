@@ -1,0 +1,13 @@
+#header p {
+  text-transform: capitalize;
+}
+
+body {
+  text-transform: uppercase;
+}
+
+/* Direct Descendant */
+body > p {
+  /* text-transform: uppercase; */
+  text-transform: none;
+}

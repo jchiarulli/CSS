@@ -1,0 +1,17 @@
+/* the font size is 12px, so when we specify 
+a line height of 24px we get a gap bewtween lines of 12px
+since the font size already takes up 12px */
+
+/* here for the letter spacing of 0.2em we inherit 
+the 12px from the font size and then multiply 
+that value by 0.2 */
+/* works exactly the same for word spacing and line height */
+p {
+  font-size: 12px;
+  /* letter-spacing: 2px;
+  word-spacing: 2px;
+  line-height: 24px; */
+  letter-spacing: 0.2em;
+  word-spacing: 0.2em;
+  line-height: 1.5em;
+}

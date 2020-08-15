@@ -1,0 +1,17 @@
+/* can only have one text decoration for an individual element*/
+
+/* article {
+  text-decoration: overline;
+}
+
+a {
+  text-decoration: inherit;
+} */
+
+/* a {
+  text-decoration: line-through;
+} */
+
+a {
+  text-decoration: underline;
+}

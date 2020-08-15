@@ -1,0 +1,15 @@
+/* Searches user's computer for arial font, 
+if it's not present it falls back on the default browser font*/
+
+article h2,
+article p {
+  font-family: arial;
+}
+
+/* uses a font family which will first use arial, then helvetica, 
+then sans-serif, then the default browser font */
+
+article h2,
+article p {
+  font-family: arial, helvetica, sans-serif;
+}

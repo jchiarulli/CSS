@@ -1,0 +1,27 @@
+span[class] {
+  color: purple;
+}
+
+div[id] {
+  background: gray;
+}
+
+a[title] {
+  color: red;
+}
+
+a[title="Search engine"] {
+  color: green;
+}
+
+span[class~="deck"] {
+  color: cyan;
+}
+
+a[href$="pdf"] {
+  color: orange;
+}
+
+a[href^="http"] {
+  color: pink;
+}

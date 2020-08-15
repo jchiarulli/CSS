@@ -1,0 +1,41 @@
+/* in rgba the a stands for alpha and controls
+the opacity and ranges from 0 - 1 */
+/* the a in rgba only controls the opacity of the
+background and not the text within in it  */
+
+#circle {
+  width: 400px;
+  height: 400px;
+  position: absolute;
+  background: rgba(200, 200, 100);
+  border-radius: 200px;
+  top: 50px;
+  left: 50px;
+  /* opacity: 0; */
+  opacity: 1;
+  text-align: center;
+}
+
+#circle-2 {
+  width: 400px;
+  height: 400px;
+  position: absolute;
+  background: rgba(200, 100, 200);
+  border-radius: 200px;
+  top: 250px;
+  left: 250px;
+  opacity: 0.3;
+  text-align: center;
+}
+
+#circle-3 {
+  width: 400px;
+  height: 400px;
+  position: absolute;
+  background: rgba(100, 200, 200, 0.1);
+  border-radius: 200px;
+  top: 50px;
+  left: 250px;
+  /* opacity: 0.1; */
+  text-align: center;
+}

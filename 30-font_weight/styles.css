@@ -1,0 +1,13 @@
+/* Not all fonts have every option of font weight */
+/* Not all fonts have every font-weight value */
+
+h1 {
+  font-weight: normal;
+}
+
+p {
+  /* font-weight: lighter; */
+  font-weight: bold;
+  /* font-family: "Yu Gothic"; */
+  font-family: arial;
+}

@@ -1,0 +1,10 @@
+/* There is no padding collapse */
+.box {
+  margin: 30px;
+  /* padding: 30px; */
+  /* padding: 30px 20px 10px 5px; */
+  /* padding: 30px 20px; */
+  /* padding: 30px 20px 5px; */
+  padding: 30px 25%;
+  border: 1px solid #000;
+}

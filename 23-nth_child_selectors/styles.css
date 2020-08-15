@@ -1,0 +1,17 @@
+li:nth-child(1),
+li:nth-child(7) {
+  font-weight: bold;
+}
+
+li:nth-child(even) {
+  background: gray;
+}
+
+li:nth-child(odd) {
+  background: pink;
+}
+
+/* n starts at 0 */
+li:nth-child(3n + 1) {
+  color: green;
+}

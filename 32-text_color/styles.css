@@ -1,0 +1,14 @@
+#header h1 {
+  color: chocolate;
+}
+
+#header h2 {
+  color: #567398;
+}
+
+/* background can take url's as well as colors */
+#header {
+  /* background-color: antiquewhite; */
+  background: antiquewhite;
+  /* background: url(); */
+}
